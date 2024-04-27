@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aboutus</title>
+    <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  
+  <nav class="navbar h-nav-resp">
+    <div class="navbarcontrol">
+    <ul class="nav-list v-class-resp ">
+        <div class="logo"><img src="img/logo.png" alt="logo"></div>
+     <li> <a href="index.html">Home</a></li>
+     <li> <a href="books.html">Books</a></li>
+     <li> <a href="#services">Services</a></li>
+     <li> <a href="aboutus.html">About</a></li>
+     <li> <a href="#contact">Contact Us</a></li>
+</ul>
+<div class="rightnav v-class-resp">
+    <input class="searchbox" type="text" name="search" id="search">
+    <button class="btn btn-sm">Search</button>
+
+    
+</div>
+
+
+
+<div class="burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</div>
+
+</div>
+</nav>
+
+
+<div class="heading">
+  <h1 class="head">About us</h1>
+</div>
+
+<!--main box -->
+<div class="box">
+  <!--viveks image-->
+ <div class="vivekinfo">
+ </div>
+ <div class="list-logos">
+  <ul class="logos">
+   
+    <li><button class="e-mail" onclick="emailfun()"><img src="../images/emaillogo.png" alt=""></button></li>
+    <li><button class="linkedinlogo"  onclick="linkedinfun()"><img src="../images/linkedinlogo.png" alt=""></button></li>
+    <li><button class="instagramlogo" onclick="instagramfun()"><img src="../images/instagramlogo.png" alt=""></button></li>
+    <li><button class="facebooklogo" onclick="facebookfun()"><img src="../images/facebooklogo.png" alt=""></button></li>
+  </ul>
+ </div>
+
+  <h1 class="datavivek">I am <span class="auto-type"></span></h1>
+  <p class="infoaboutus"> A student learning in Rajarshi Shahu Mahavidyalaya Latur.</p>
+  <p class="secondinfovivek"> A BCA graduate . </p>
+  
+
+ <!--vilas's image-->
+  <div class="vilasinfo">
+</div>
+<div class="list-logos2">
+  <ul class="logos2">
+   
+    <li><button class="e-mail2" onclick="emailfun2()"><img src="../images/emaillogo.png" alt=""></button></li>
+    <li><button class="linkedinlogo2" onclick="linkedinfun2()"><img src="../images/linkedinlogo.png" alt=""></button></li>
+    <li><button class="instagramlogo2" onclick="instagramfun2()"><img src="../images/instagramlogo.png" alt=""></button></li>
+    <li><button class="facebooklogo2" onclick="facebookfun2()"><img src="../images/facebooklogo.png" alt=""></button></li>
+  </ul>
+</div>
+  
+<h1 class="datavilas">I am <span class="auto-type2"></span></h1>
+  <p class="infoaboutusvilas">A student learning in Rajarshi Shahu Mahavidyalaya Latur.</p>
+  <p class="secondinfovilas"> A BCA graduate .</p>
+</div>
+
+<!--information cards  -->
+<div class="cards1">
+
+   <div class="Firstcard">
+    <h1 class="mission">Our Mission</h1>
+    <p class="paramission">  Our mission is to provide a well defined interface for the readers and the students that they can
+       read the books and learn something new </p>
+   </div>
+
+   <div class="secondcard">
+    <h1 class="values">Our Values</h1>
+    <p class="paravalues">To provide everyone same service ,and learn their feedbacks about our products</p>
+   </div>
+
+</div>
+
+<div class="cards2">
+
+   <div class="thirdcard">
+    <h1 class="dream">Our Dream</h1>
+    <p class="paradream"> It is our compass when we are building the platform.and developing new products and policies
+      We want to empower individuals and be a force for good in the world</p>
+   </div>
+
+   <div class="fourthcard">
+    <h1 class="goals">Our Goals</h1>
+    <p class="paragoals">To be improved and more inspiring everyday.</pc>
+   </div>
+
+</div>
+<button class="gotohome" onclick="gotohomefun()">Home</button>
+
+<div class="footer">
+
+</div>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed=new Typed(".auto-type",
+  {
+    strings :["Vivek Kumbhar "," Programmer "," Designer "," Web developer "," Instragramer "," App-developer"],
+    typespeed:40,
+    backspeed:40,
+    loop:true
+  });
+ 
+  var typed=new Typed(".auto-type2",
+  {
+    strings :["Vilas Kapde "," Programmer "," Designer "," App-developer"," Instagramer"],
+    typespeed:40,
+    backspeed:40,
+    loop:true
+  });
+
+  function emailfun(){
+    window.location.href="vivekkumbharvpk2004@gmail.com";
+  }
+
+  function linkedinfun(){
+    window.location.href=
+    "https://www.linkedin.com/in/vivek-kumbhar-5693552a1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BseurEyoQQZS1ZE64rNL%2B7Q%3D%3D";
+  }
+
+  function instagramfun()
+  {
+    window.location.href="https://www.instagram.com/ordinary__boiii/";
+
+  }
+
+  function facebookfun()
+  {
+    window.location.href="https://www.facebook.com/rutuja.kumbhar.948/";
+  }
+
+  //vilas data//
+
+  function emailfun2(){
+    window.location.href="kapadevilas2003@gmail.com";
+  }
+
+  function linkedinfun2(){
+    window.location.href="http://www.linkedin.com/in/vilaskapde";
+  }
+
+  function instagramfun2()
+  {
+    window.location.href="https://www.instagram.com/kapadevilas/";
+
+  }
+
+  function facebookfun2()
+  {
+    window.location.href="https://www.facebook.com/vilas.kapade.31";
+  }
+
+  function gotohomefun(){
+    window.location.href="index.html"
+  }
+
+</script>
+</body>
+</html>

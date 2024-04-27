@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+.logo{
+
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+
+    width: 26%;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin: 5px;
+
+}
+
+
+.navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background: #089da1;
+    /*transition: none; */
+    width: 1520px;
+
+    
+
+}
+
+.navbarcontrol{
+
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-list{
+
+    width: 70%;
+    
+    display: flex;
+    align-items: center;
+
+   
+
+}
+
+
+
+.nav-list li{
+
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+
+     text-decoration: none;
+     color: white;
+     font-size: 18px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+     
+}
+
+.nav-list li a:hover{
+
+
+    color: grey;
+
+    
+}
+
+.rightnav{
+
+   
+    width: 30%;
+    text-align: right; 
+    padding: 0 23px;
+}
+.btn{
+    height: 40px;
+    padding: 7px 12px;
+    margin: 10px 5px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: ease-in 0.4s;
+
+}
+.btn:hover
+{
+    color: rgb(104, 231, 79);
+    border-color: rgb(104, 231, 79);
+}
+#search{
+ 
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+    border-radius: 9px;
+    background: rgb(251, 249, 249);
+    border:1px solid white;
+
+    
+    
+
+
+}
+
+
+
+/*main body*/
+
+
+
+.heading
+{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    position:absolute;
+    left: 700px;
+    top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box
+{
+    height:1000px;
+    width: 1200px;
+    display: flex;
+    background:linear-gradient( rgb(236, 188, 188),rgb(207, 221, 230),rgb(83, 180, 245),rgb(229, 229, 245));
+    position:absolute;
+    left: 170px;
+    top: 170px;
+    border-top: rgb(20, 20, 20) 8px solid;
+    border-bottom: rgb(44, 42, 42) solid 8px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+/* Vivek information*/
+.vivekinfo
+{
+    display: flex;
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    background:rgb(252, 252, 255);
+    top: 100px;
+    left: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius:100px ;
+    border-top-right-radius: 50px;
+    background-image: url('../images/vk.jpg.jpeg');
+    background-size: cover;
+border: rgb(255, 196, 3) solid 2px;
+}
+.datavivek
+{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.infoaboutus
+{
+    position: absolute;
+    top: 160px;
+    left: 600px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+.secondinfovivek
+{
+    position: absolute;
+    top: 190px;
+    left: 600px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.list-logos
+{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 450px;
+    left: 80px;
+} 
+.logos
+{
+    height: 30px;
+    width: 200px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.e-mail
+{
+    height: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    mix-blend-mode: color-burn;
+    border-top: rgb(255, 97, 97) 1px solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+}
+.linkedinlogo
+{
+    height: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+   mix-blend-mode: color-burn;
+   border-top: rgb(255, 97, 97) 1px solid;
+   border-top-left-radius: 50px;
+   cursor: pointer;
+   border-top-right-radius: 50px;
+}
+.instagramlogo
+{
+    height: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    mix-blend-mode: color-burn;
+    border-top: rgb(255, 97, 97) 1px solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+   
+}
+.facebooklogo
+{
+    height: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    mix-blend-mode: color-burn;
+    border-top: rgb(255, 97, 97) 1px solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+   
+}
+
+/* Vilas information */
+.vilasinfo
+{
+    display: flex;
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    background:rgb(252, 252, 255);
+    top: 550px;
+    left: 800px;
+  
+    border-top-left-radius: 50px;
+    border-bottom-left-radius:100px ;
+    border-top-right-radius: 100px;
+    background-image: url('../images/vilas.jpg');
+    background-size: cover;
+    border: rgb(255, 196, 3) solid 2px; 
+}
+.datavilas
+{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+.infoaboutusvilas
+{
+    position: absolute;
+    top: 680px;
+    left: 180px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.secondinfovilas
+{
+    position: absolute;
+    top: 710px;
+    left: 180px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif 
+}
+.list-logos2
+{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 900px;
+    left: 880px;
+} 
+.logos2
+{
+    height: 30px;
+    width: 200px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.e-mail2
+{
+    height: 10px;
+    height: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    mix-blend-mode: color-burn;
+    border-top: rgb(255, 97, 97) 1px solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+    
+}
+.linkedinlogo2
+{
+    height: 10px;
+    height: 10px; 
+    background: transparent;
+    outline: none;
+    border: none;
+   mix-blend-mode: color-burn;
+   border-top: rgb(255, 97, 97) 1px solid;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+   cursor: pointer;
+}
+.instagramlogo2
+{
+    height: 10px;
+    height: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    mix-blend-mode: color-burn;
+    border-top: rgb(255, 97, 97) 1px solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+   
+}
+.facebooklogo2
+{
+    height: 10px;
+    height: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    mix-blend-mode: color-burn;
+    border-top: rgb(255, 97, 97) 1px solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+   
+}
+
+/* cards */
+
+.cards1
+{
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    position: absolute;
+    top: 1200px;
+    left: 170px;
+    background: linear-gradient(rgb(152, 196, 233),rgb(142, 140, 252));
+    border-radius: 30px;
+    border-top: rgb(56, 55, 55) 9px solid;
+    border-bottom: rgb(41, 39, 39) 5px solid;
+}
+
+.cards2
+{
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    position: absolute;
+    top: 1520px;
+    background: rgb(188, 188, 245);
+    left: 170px;
+    border-top: rgb(56, 54, 54) 9px solid;
+    border-bottom: rgb(41, 40, 40) 5px solid;
+    border-radius: 30px;
+  
+}
+.Firstcard
+{
+    height: 285px;
+    width: 550px;
+    left:20px;
+    position: absolute;
+    background:linear-gradient(rgb(152, 196, 233),rgb(142, 140, 252));
+    border-right: solid 5px rgb(43, 35, 87);
+    border-bottom-right-radius: 10px;
+  
+
+}
+.secondcard
+{
+    height: 285px;
+    width: 550px;
+    left: 630px;
+    position: absolute; 
+    background: linear-gradient(rgb(152, 196, 233),rgb(142, 140, 252));
+    border-left: solid 5px  rgb(43, 31, 110);
+    border-bottom-left-radius: 10px;
+   
+}
+.thirdcard
+{
+    height: 285px;
+    width: 550px;
+    left: 20px;
+    position: absolute; 
+    background: rgb(188, 188, 245);
+    border-bottom-right-radius: 10px;
+    border-right: solid 5px  rgb(43, 34, 94);
+ 
+    
+}
+.fourthcard
+{
+    height: 285px;
+    width: 550px;
+    left: 630px;
+    position: absolute; 
+    background: rgb(188, 188, 245);
+    border-left: solid 5px  rgb(43, 34, 97);
+    border-bottom-left-radius: 10px;
+   
+}
+
+.mission
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(19, 19, 46);
+    
+    
+}
+.values
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(19, 19, 46);
+    position:absolute;
+    left: 20px;
+}
+.dream
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(19, 19, 46);
+}
+.goals
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(19, 19, 46);
+    position: absolute;
+    left: 20px;
+}
+
+.paramission
+{
+   font-size: 20px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: solid 2px rgb(29, 18, 18);
+   position: absolute;
+   top: 60px;
+}
+.paravalues
+{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: solid 2px rgb(29, 18, 18);
+    
+ }
+.paradream
+ {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: solid 2px rgb(29, 18, 18);
+    position: absolute;
+    top: 60px;
+ }
+ .paragoals
+ {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: solid 2px rgb(29, 18, 18);
+
+ }
+ .footer
+ {
+   height: 100px;
+   width: 1520px;
+   background:#089da1;
+   position: absolute;
+   top: 2000px;
+
+ }
+ .gotohome
+ {
+    height: 50px;
+    width: 100px;
+    background:rgb(216, 227, 245);
+    position: absolute;
+    cursor: pointer;
+    top: 1900px;
+    left:720px;
+    border-top: rgb(169, 191, 224) 3px solid;
+    border-radius: 50px;
+    border-bottom: rgb(169, 191, 223) 3px solid;;
+    border-right: rgb(169, 191, 223) 3px solid;;
+    border-left: rgb(169, 191, 223) 3px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    transition: ease-in 0.3s;
+    
+ }
+ .gotohome:hover
+ {
+    background: rgb(255, 22, 22);
+ } 
+ 
